@@ -1,0 +1,13 @@
+.round-photo-container {
+    position: absolute;
+    top: 110px;
+    right: 850px;
+  }
+  
+  .round-photo {
+    width: 160px; 
+    height: 190px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
