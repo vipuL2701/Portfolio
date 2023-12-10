@@ -1,3 +1,3 @@
 # self
 
-Personal content ,deploy your resume and other link in your single page applicaton useing ReactJs.
+Personal content, deploy your resume and other links in your single page application using ReactJs.
