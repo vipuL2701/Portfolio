@@ -7,7 +7,7 @@ const ContactUs = () => {
 
   return (
     <div className='ContactUs'>
-      <button onClick={redirectToExternalWebsite}>ContactUs</button>
+      <button onClick={redirectToExternalWebsite}>Contact</button>
     </div>
   );
 };
