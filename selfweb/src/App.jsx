@@ -11,7 +11,7 @@ function App() {
     <Header/>
     <RoundPhoto/><br/>
     <h1>VIPUL NIGAM</h1>
-     <Resume/>
+    <Resume/>
     <br/>
     <h2>Software developer,Javascript developer,ReactJs developer</h2>
     <h2>JavaScript, ReactJS, Redux, HTML, CSS, Git</h2>
