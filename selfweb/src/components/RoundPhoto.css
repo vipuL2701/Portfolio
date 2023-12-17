@@ -11,3 +11,10 @@
     border: 2px solid #fff;
   }
   
+  @media  only screen and (max-width: 768px) {
+    .round-photo-container {
+      top: 80px; /* Adjust the top spacing for mobile screens */
+      right: 10px; /* Adjust the right spacing for mobile screens */
+      position: relative;
+    }
+  }
