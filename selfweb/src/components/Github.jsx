@@ -2,7 +2,7 @@ import React from 'react';
 import './Github.css'
 const Github = () => {
   const redirectToExternalWebsite = () => {
-        window.location.href = 'https://github.com/vipuL2701';
+        window.location.href = 'https://discord.gg/UFEHrSbEnU';
   };
 
   return (
