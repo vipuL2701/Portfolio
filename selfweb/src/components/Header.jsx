@@ -11,7 +11,7 @@ function Header() {
     <header>
         <div className='header-container'>
           <div className='nav-logo'>
-           <img src={brand_logo} className="logo border" alt="Logo"/>
+           <img src={brand_logo} className="logo" alt="Logo"/>
           </div>
           <ol className='main-header'><Github/></ol>
           <ol className='main-header'><Discord/></ol>

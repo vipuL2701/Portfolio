@@ -2,7 +2,7 @@ import React from 'react';
 import './Resume.css'
 const Resume = () => {
   const redirectToExternalWebsite = () => {
-        window.location.href = 'https://drive.google.com/file/d/1dqPdFs4lJG26UW-VxdR3CSDf8m0n2zu4/view?usp=sharing';
+        window.location.href = 'https://drive.google.com/file/d/1ouQZ4fRYUK3OC86oRwv7hM3Ho4EW-bJO/view?usp=sharing';
   };
 
   return (

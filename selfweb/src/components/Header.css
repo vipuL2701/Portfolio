@@ -1,5 +1,5 @@
 .header-container {
-  position:fixed;
+  position:absolute;
   left: -30px;
   top: -11px;
   width: 100%;
@@ -10,9 +10,7 @@
   padding: 20px;
   background-color: #333; 
   color: #fff; 
-
   background-color: #333;
-  overflow: auto;
   white-space: nowrap;
 
 }
@@ -29,20 +27,27 @@
 }
 
 .nav-logo{
-  height: 150px;
+  height: 70px;
   width: 150px;
+
 }
 
 .logo{
-  height: 50px;
-  width: 100ox;
-  left: -800px;
-  top: -10;
+  
+  height: 4em;
+  width: 180px;
+
+  }
+
+@keyframes nav-logo{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.border{
-  border: 2px solid transparent;
-}
 
 .main-header {
   margin: 0;
