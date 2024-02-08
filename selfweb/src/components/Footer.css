@@ -5,9 +5,9 @@
     position: absolute;
     width: 100%;
     left: 0;
-    height: 8%;
+
     margin-bottom: 0px;
-    display: flex;
+    display: flex-box;
     justify-content: center; 
 }
 

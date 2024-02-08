@@ -5,12 +5,14 @@ import RoundPhoto from "./components/RoundPhoto";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer";
 import img from "../src/img/selfimg.jpg";
-
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Projects from "./components/Pages/Projects";
+import NavLinks from "./components/Pages/NavLinks";
 function App() {
   return (
-    <>
+    <Router>
       <Header />
+    
       <div className="bg">
         <img src={img} alt="Image" />
       </div>
@@ -37,12 +39,16 @@ function App() {
 
         <h3>My Skill</h3>
         <p>JavaScript, ReactJS, Redux, HTML, CSS, Git/GitHub</p>
-         
+
         <Resume />
       </div>
+      <Routes>
+        <Route path="/projects" Component={Projects} />
+      </Routes>
+      <NavLinks />
 
       <Footer />
-    </>
+    </Router>
   );
 }
 
